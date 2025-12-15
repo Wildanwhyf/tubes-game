@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://m1p8jjcn8qx1"]
+
+[ext_resource type="Texture2D" uid="uid://kqg7o3a54a1b" path="res://Art/bloodyboss1.png" id="1_u1kt3"]
+
+[node name="BattleEnemy" type="TextureButton"]
+offset_left = 217.0
+offset_top = 1.0
+offset_right = 617.0
+offset_bottom = 501.0
+scale = Vector2(0.52, 0.52)
+texture_normal = ExtResource("1_u1kt3")
