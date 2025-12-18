@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://cy1m8kg2ailq4"]
+
+[node name="BattlePlayerBar" type="HBoxContainer"]
+
+[node name="Name" type="Label" parent="."]
+layout_mode = 2
+text = "Player"
+
+[node name="Health" type="Label" parent="."]
+layout_mode = 2
+text = "100"
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(90, 0)
+layout_mode = 2
+size_flags_vertical = 4
+value = 50.0
+
+[node name="Mana" type="Label" parent="."]
+layout_mode = 2
+text = "10"
+
+[node name="ManaBar" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_vertical = 4
+value = 50.0

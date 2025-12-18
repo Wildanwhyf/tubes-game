@@ -34,6 +34,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("5_6t8i5")
+autowrap = null
+clear_first = null
 metadata/_edit_lock_ = true
 
 [node name="BattleEnemy" parent="Enemies" instance=ExtResource("2_6t8i5")]
@@ -58,6 +60,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("5_6t8i5")
+autowrap = null
+clear_first = null
 metadata/_edit_lock_ = true
 
 [node name="BattlePlayer" parent="Players" instance=ExtResource("1_oxp8w")]
@@ -151,6 +155,8 @@ grow_vertical = 2
 theme_override_constants/separation = -4
 alignment = 1
 script = ExtResource("5_6t8i5")
+autowrap = null
+clear_first = null
 
 [node name="Button" type="Button" parent="Options/Options"]
 layout_mode = 2
